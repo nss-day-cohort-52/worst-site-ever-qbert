@@ -1,17 +1,19 @@
 @import url("spinners.css");
+@import url("navigation.css");
+
+
+
 html {
     background-color: #53A2BE;
 }
-@import url("spinners.css");
+
 .center {
     border-radius: 5cm;
     display: flex;
     justify-content: center;
     
 }
-.middle {
-    
-}
+
 .input {
     width: 150px;
     padding: 5px;
