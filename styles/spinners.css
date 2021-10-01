@@ -8,43 +8,99 @@
 }
 
 .spinner1{
-    animation: spin 10000ms;
+    align-self: center;
+    height: 10rem;
+    width:  10rem;
+    animation: spin 50000ms;
     animation-timing-function: linear;
     animation-iteration-count: infinite;
 }
 
 .spinner2{
+    align-self: center;
+    height: 10rem;
+    width:  10rem;
     animation: spin 3308ms;
     animation-timing-function: cubic-bezier(.06,1.38,0,-0.29);
     animation-iteration-count: infinite;
 }
 .spinner3{
+    align-self: center;
+    height: 10rem;
+    width:  10rem;
     animation: spin 5586ms;
     animation-timing-function: cubic-bezier(.8,1.33,0,-0.29);
     animation-iteration-count: infinite;
 }
 .spinner4{
+    align-self: center;
+    height: 10rem;
+    width:  10rem;
     animation: spin 5145ms;
     animation-timing-function: cubic-bezier(.68,.73,1,-0.33);
     animation-iteration-count: infinite;
 }
 .spinner5{
+    align-self: center;
+    height: 10rem;
+    width:  10rem;
     animation: spin 5024ms;
     animation-timing-function: cubic-bezier(1,.5,.04,.99);
     animation-iteration-count: infinite;
 }
 .spinner6{
+    align-self: center;
+    height: 10rem;
+    width:  10rem;
     animation: spin 2058ms;
     animation-timing-function: cubic-bezier(.45,-0.91,.43,1.48);
     animation-iteration-count: infinite;
 }
 .spinner7{
+    align-self: center;
+    height: 10rem;
+    width:  10rem;
     animation: spin 2339ms;
     animation-timing-function: cubic-bezier(.45,-0.91,1,-0.39);
     animation-iteration-count: infinite;
 }
 .spinner8{
+    align-self: center;
+    height: 10rem;
+    width:  10rem;
     animation: spin 4183ms;
     animation-timing-function: cubic-bezier(1,.11,1,-0.39);
     animation-iteration-count: infinite;
 }
+.pleasewait{
+    display: flex;
+    font-size: 5rem;
+    justify-content: center;
+}
+.spacer{
+    margin-right: "3px";
+}
+.pleasewait:after {
+    overflow: hidden;
+    display: inline-block;
+    vertical-align: super;    
+    animation: ellipsis steps(4,end) 2700ms infinite;
+    content: "\2026"; /* ascii code for the ellipsis character */
+    width: 0px;
+  }
+  
+  @keyframes ellipsis {
+    to {
+      width: 6.25rem;    
+    }
+  }
+  
+  @-webkit-keyframes ellipsis {
+    to {
+      width: 6.25rems;    
+    }
+  }
+  .waiting{
+      display: flex;
+      flex-direction: column;
+  }

@@ -1,20 +1,36 @@
 @import url("spinners.css");
+@import url("navigation.css");
 
 
 
-.navigation {
+html {
+    background-color: #53A2BE;
+}
+
+.center {
+    border-radius: 5cm;
     display: flex;
-    justify-content: space-between;
-    background-color:#0A2239
-    ;
+    justify-content: center;
+    
 }
 
-.navigation__left {
-    color: white;
-}
+.input {
+    width: 150px;
+    padding: 5px;
 
-.navigation__right {
-    color: white;
-}
+    border-radius: 10px;
+    border: 2px;
 
+}
+.button {
+    border: 2px;
+    padding: 5px;
+}
+.hidden_link:hover {
+    cursor: inherit;
+}
+.picture {
+    max-width: 50%;
+    height: auto;
+}
 
