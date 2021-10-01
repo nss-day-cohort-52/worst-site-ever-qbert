@@ -1,0 +1,50 @@
+@keyframes spin {
+    from {
+        transform: rotate(0turn);
+    }
+    to {
+        transform: rotate(1turn);
+    }
+}
+
+.spinner1{
+    animation: spin 10000ms;
+    animation-timing-function: linear;
+    animation-iteration-count: infinite;
+}
+
+.spinner2{
+    animation: spin 3308ms;
+    animation-timing-function: cubic-bezier(.06,1.38,0,-0.29);
+    animation-iteration-count: infinite;
+}
+.spinner3{
+    animation: spin 5586ms;
+    animation-timing-function: cubic-bezier(.8,1.33,0,-0.29);
+    animation-iteration-count: infinite;
+}
+.spinner4{
+    animation: spin 5145ms;
+    animation-timing-function: cubic-bezier(.68,.73,1,-0.33);
+    animation-iteration-count: infinite;
+}
+.spinner5{
+    animation: spin 5024ms;
+    animation-timing-function: cubic-bezier(1,.5,.04,.99);
+    animation-iteration-count: infinite;
+}
+.spinner6{
+    animation: spin 2058ms;
+    animation-timing-function: cubic-bezier(.45,-0.91,.43,1.48);
+    animation-iteration-count: infinite;
+}
+.spinner7{
+    animation: spin 2339ms;
+    animation-timing-function: cubic-bezier(.45,-0.91,1,-0.39);
+    animation-iteration-count: infinite;
+}
+.spinner8{
+    animation: spin 4183ms;
+    animation-timing-function: cubic-bezier(1,.11,1,-0.39);
+    animation-iteration-count: infinite;
+}
