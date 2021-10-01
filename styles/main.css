@@ -1,1 +1,20 @@
 @import url("spinners.css");
+
+
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    background-color:#0A2239
+    ;
+}
+
+.navigation__left {
+    color: white;
+}
+
+.navigation__right {
+    color: white;
+}
+
+
