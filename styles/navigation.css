@@ -1,8 +1,8 @@
 .navigation {
     display: flex;
     justify-content: space-between;
-    background-color:#0A2239
-    ;
+    background-color:#0A2239;
+    margin-bottom: 30px;
 }
 
 .navigation__left {
