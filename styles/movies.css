@@ -1,0 +1,9 @@
+.movies {
+    display: flex;
+    justify-content: center;
+}
+.movie__image {
+    max-width: 300px;
+    height: auto;
+    margin: 20px;
+}
